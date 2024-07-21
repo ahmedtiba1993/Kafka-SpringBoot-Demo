@@ -16,5 +16,4 @@ public class KafkaProducer {
         log.info("send message to topic1: {}", message);
         kafkaTemplate.send("topic1", message);
     }
-
 }
